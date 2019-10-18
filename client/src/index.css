@@ -85,7 +85,8 @@ body {
   border: 1px solid grey;
   padding: 5px 10px;
   background-color: lightseagreen;
-  width: 50px;
+  font-size: 1.45em;
+  margin-top: 20px;
 }
 
 .submit-update:hover {
