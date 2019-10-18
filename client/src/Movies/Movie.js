@@ -37,7 +37,7 @@ export default class Movie extends React.Component {
     .then(response => this.props.history.push('/'))
     .catch(err => console.log(err))
   }
-
+// 
   render() {
     if (!this.state.movie) {
       return <div>Loading movie information...</div>;
