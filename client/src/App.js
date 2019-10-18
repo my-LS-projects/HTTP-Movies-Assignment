@@ -4,10 +4,9 @@ import SavedList from "./Movies/SavedList";
 import MovieList from "./Movies/MovieList";
 import Movie from "./Movies/Movie";
 import { UpdateMovieForm } from './Movies/UpdateMovieForm'
-<<<<<<< HEAD
+
 import axios from 'axios'
-=======
->>>>>>> unyoink
+
 
 const App = () => {
   const [ savedList, setSavedList ] = useState([]);
@@ -38,11 +37,7 @@ const App = () => {
           return <Movie {...props} addToSavedList={addToSavedList} />;
         }}
       />
-<<<<<<< HEAD
-      <Route path='/update-movie/:id' render={props => <UpdateMovieForm {...props} movies={movies}/> } />
-=======
       <Route path='/update-movie/:id' render={props => <UpdateMovieForm {...props} /> } />
->>>>>>> unyoink
     </>
   );
 };
